@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.day-header {
+  background-color: green;
+  height: 100%;
+}
+.night-header {
+  background-color: black;
+  height: 100%;
+  color: rgb(80, 20, 221);
+}
+.input-block {
+  border: solid, black;
+  row-gap: 5px;
+  padding: 1%;
+  background-color: orange;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.timer-block {
+  border: solid red;
+  background-color: #61dafb;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
